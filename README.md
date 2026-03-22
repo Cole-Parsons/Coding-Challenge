@@ -26,11 +26,11 @@ Route: '/info'   Method: GET - Description: Returns a JSON with app metadata (na
 
 ## How to Run  
 
-### 1. Without Git installed  
+1. ### Without Git installed  
 (1.1) Download the contents of this repository into a parent folder  
 (1.2) Ensure your working Directory is the parent folder  
 
-### 1. With Git installed  
+1. ### With Git installed  
 Run  
 (1.1) `git clone https://github.com/Cole-Parsons/Coding-Challenge.git`  
 (1.2) `cd Coding-Challenge`  
@@ -66,6 +66,6 @@ Secrets such as SSL Keys should **NEVER** be stored in a repository. Use cloud s
 ## HTTPS & Security  
 * HTTPS is enabled using a self signed certificate located in `certs/`  
 * Storing a private SSL key locally in a repository is bad practice because:  
-It exposes the private key to anyone with repo access  
-Compromised keys allow attackers to decrypt traffic or impersonate the service  
-In production, keys should be managed securely  
+-It exposes the private key to anyone with repo access  
+-Compromised keys allow attackers to decrypt traffic or impersonate the service  
+-In production, keys should be managed securely  
