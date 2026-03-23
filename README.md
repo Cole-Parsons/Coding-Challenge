@@ -20,7 +20,7 @@ Route: '/info'   Method: GET - Description: Returns a JSON with app metadata (na
 ## Requirements  
 
 * Docker & Docker Compose installed  
-* HTTPS access via self signed certificate  
+Note: The service uses a self-signed certificate. You may need to manually accept the certificate warning in your browser when accessing the app over HTTPS.  
 
 ---
 
